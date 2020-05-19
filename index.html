@@ -5,20 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home - Patryk</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
-    <link
-      href="http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext"
-      rel="stylesheet"
-      type="text/css"
-    />
   </head>
 
   <body class="body">
     <header>
-      <nav class="nav-panel">
-        <a href="index.html" class="nav-option">Główna</a>
-        <a href="about.html" class="nav-option">O mnie</a>
-        <a href="shortcuts.html" class="nav-option">Skróty klawiszowe</a>
-        <a href="pics.html" class="nav-option">Zrzuty ekranu</a>
+      <nav class="navigation">
+        <a href="index.html" class="navigation__link navigation__option--home"
+          >Główna</a
+        >
+        <a href="about.html" class="navigation__link">O mnie</a>
+        <a href="shortcuts.html" class="navigation__link">Skróty</a>
+        <a href="pics.html" class="navigation__link">Zdjęcia</a>
       </nav>
     </header>
 
@@ -27,45 +24,79 @@
         <h1 class="hero-header__text">Patryk Drzyzga - Strona domowa</h1>
       </header>
 
-      <section>
-        <h2 class="section-header">O mnie</h2>
-        <p>
-          Jestem pracownikiem magazynu. Zapisałem się na kurs w celu
-          przebranżowienia, a właściwie przypomnienia/ nadrobienia wiedzy z
-          technikum. <br />
-          Liczę na to, że kurs będzie wielkim krokiem ku nowej, kto wie, może
-          wymarzonej pracy. ☻
+      <section class="section">
+        <h2 class="section__header section__header--about">O mnie</h2>
+        <p class="section__paragraph">
+          Hej, miło mi, że tutaj zaglądasz ♥ Prezentuję przed Tobą efekt udziału
+          w kursie Macieja Korsana pt. "WTF - Co Ten Frontend"<br />
+          Zapisałem się na kurs, ponieważ wcześniej miałem już do czynienia z
+          tworzeniem stron internetowych i pamiętam, że bardzo to lubiłem, ale
+          nie robiłem tego nigdy na profesjonalnym poziomie, zwykle jakieś
+          proste projekty do szkoły i na tym koniec, dlatego gdy tylko trafiłem
+          na reklamę kursu oczka mi się zaświeciły. Znajdziesz tutaj trochę
+          moich osobistych refleksji oraz masę wiedzy, którą zdobyłem w ciągu
+          tych upojnych trzynastu tygodni. Miłego oglądania!
         </p>
       </section>
 
-      <section>
-        <h2 class="section-header">Notatki z WTF: Co Ten Frontend</h2>
-        <article>
-          <h3 class="note-header">Tworzenie pierwszego projektu</h3>
-          <p>
-            Rozpoczęcie pracy nad stroną domową z wykorzystaniem HTML-a. Pojęcie
-            semantyki stron internetowych. Właściwy podział na sekcje.
-            Podpowiedź: (! + Tab) tworzy w edytorze VSC bazowy schemat strony
-            internetowej (zawiera on DOCTYPE, podział na head i body, informację
-            o języku oraz metadane schematu kodowania i wyświetlania strony).
+      <section class="section">
+        <h2 class="section__header">Tygodniczek</h2>
+        <article class="article">
+          <h3 class="article__header">Tydzień I</h3>
+          <p class="article__paragraph">
+            W piewszym tygodniu poznajemy czym dokładnie jest frontend.
+            Dowiadujemy się też jakich narzędzi będziemy używać w czasie trwania
+            kursu oraz jaka wiedza będzie nam niezbędna przy tworzeniu stron
+            internetowych. Cieszę się, że są to rzeczyiste narzędzia używane do
+            pracy przy developmencie. Oswaja nas to z tym, z czym
+            najprawdopodobniej będziemy mieli do czynienia na naszym pierwszym
+            stażu.
           </p>
         </article>
 
-        <article>
-          <h3 class="note-header">Stylizacja strony internetowej</h3>
-          <p>
-            Poznanie kaskadowych arkuszy stylów i wykorzystanie ich do
-            upiększenia strony domowej. Podpinanie pliku CSS do dokumentu.
-            Dalsza praca własna przy stylizowaniu strony.
+        <article class="article">
+          <h3 class="article__header">Tydzień II</h3>
+          <p class="article__paragraph">
+            Przyszedł czas na języki programowania, czyli podstawy HTML, CSS i
+            Javascript. Wyróżniamy też następujące warstwy stron internetowych:
+            [Javascript] > [CSS] > [HTML] > [Treść]. Ich znajomość jest
+            kluczowa, ponieważ wierzchnia ma wpływ na tę pod nią.
+          </p>
+        </article>
+
+        <article class="article">
+          <h3 class="article__header">Tydzień III</h3>
+          <p class="article__paragraph">
+            Zakładamy konto na Trello i śledzimy postęp naszych prac domowych.
+            Rozumiemy jak działa przeglądarka. Konwencje nazewnictwa:
+            <b>camelCase, kebab-case, snake_case, PascalCase</b>. Oswajamy się
+            także z terminalem.
+          </p>
+        </article>
+
+        <article class="article">
+          <h3 class="article__header">Tydzień IV</h3>
+          <p class="article__paragraph">
+            Rozpoczynamy pracę z użyciem gita, zakładamy swoje konta na GitHub.
+            Commitujemy zmiany, przyzwyczajamy się do ich regularnego
+            zapisywania i dokładnego opisywania. Poznajemy sposoby formatowania
+            elementów div, jednostki, z jakich korzysta się przy
+            ich tworzeniu, typy danych w Javascript oraz takie własności jak
+            <code>box-sizing</code>, <code>position</code>, <code>float</code>.
+            Nazywamy klasy w naszym dokumencie wg struktury BEM (ang.
+            <em>Block-Element-Modifier</em>).
           </p>
         </article>
       </section>
     </main>
 
     <footer class="footer">
-      Strona domowa Patryka Drzyzga, wszystkie treści są efektem udziału w
-      szkoleniu “WTF: Co Ten Frontend”.
+      <p class="footer__paragraph">
+        Strona domowa Patryka Drzyzga, wszystkie treści są efektem udziału w
+        szkoleniu “WTF: Co Ten Frontend”.
+      </p>
     </footer>
+
     <script src="main.js"></script>
   </body>
 </html>
