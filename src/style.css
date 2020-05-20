@@ -1,0 +1,31 @@
+.main {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.hero__header {
+  background-color: #e0ddcf;
+  color: #2d232e;
+  text-align: center;
+  padding: 10px;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.section {
+  background-color: #f1f0ea;
+  padding: 15px;
+  margin: 20px 0px;
+  border-radius: 20px;
+}
+
+.section__about {
+  margin-top: 0px;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.section__header {
+  background-color: #534b52;
+  color: #f1f0ea;
+  padding: 5px 5px 5px 30px;
+  border-radius: 5px;
+}
