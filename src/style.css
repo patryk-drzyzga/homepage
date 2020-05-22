@@ -1,9 +1,14 @@
+.body{
+  background-image: url("email-pattern.png");
+  background-color: lightgray;
+}
+
 .main {
   width: 1000px;
   margin: 0 auto;
 }
 
-.hero__header {
+.hero-header {
   background-color: #e0ddcf;
   color: #2d232e;
   text-align: center;
@@ -13,9 +18,10 @@
 
 .section {
   background-color: #f1f0ea;
-  padding: 15px;
+  padding: 5px 15px;
   margin: 20px 0px;
   border-radius: 20px;
+  border: 1px dashed rgba(71, 68, 72, 0.3);
 }
 
 .section__about {
@@ -24,14 +30,15 @@
 }
 
 .section__header {
-  background-color: #534b52;
+  background-color: #2D232E;
   color: #f1f0ea;
   padding: 5px 5px 5px 30px;
   border-radius: 5px;
+  margin: 10px auto;
 }
 
 .article {
-    border: 2px solid #534B52;
+    border: 1px solid #2D232E;
     padding: 10px;
     margin-bottom: 5px;
     border-radius: 10px  
