@@ -1,10 +1,10 @@
-.body{
+.body {
   background-image: url("email-pattern.png");
   background-color: lightgray;
 }
 
 .main {
-  width: 1000px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -30,7 +30,7 @@
 }
 
 .section__header {
-  background-color: #2D232E;
+  background-color: #2d232e;
   color: #f1f0ea;
   padding: 5px 5px 5px 30px;
   border-radius: 5px;
@@ -38,8 +38,8 @@
 }
 
 .article {
-    border: 1px solid #2D232E;
-    padding: 10px;
-    margin-bottom: 5px;
-    border-radius: 10px  
+  border: 1px solid #2d232e;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 10px;
 }
